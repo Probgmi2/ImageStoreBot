@@ -1,6 +1,8 @@
-"settings": {
-  "terminal.integrated.env.linux": {
-    "TELEGRAM_API_KEY": "6619308099:AAHxnw5hNdMx9PeAtcIicS0Lskjn039kTNw",
-    "TELEGRAM_USER_ID": "6745006599"
+{
+  "settings": {
+    "terminal.integrated.env.linux": {
+      "TELEGRAM_API_KEY": "6619308099:AAHxnw5hNdMx9PeAtcIicS0Lskjn039kTNw",
+      "TELEGRAM_USER_ID": "6745006599"
+    }
   }
 }
