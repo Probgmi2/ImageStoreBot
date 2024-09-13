@@ -1,8 +1,16 @@
 {
-  "settings": {
-    "terminal.integrated.env.linux": {
-      "TELEGRAM_API_KEY": "6619308099:AAHxnw5hNdMx9PeAtcIicS0Lskjn039kTNw",
-      "TELEGRAM_USER_ID": "6745006599"
+    "name": "ImageStoreBot",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.env.linux": {
+                    "TELEGRAM_API_KEY": "6619308099:AAHxnw5hNdMx9PeAtcIicS0Lskjn039kTNw",
+                    "TELEGRAM_USER_ID": "6745006599"
+                }
+            }
+        }
     }
-  }
 }
