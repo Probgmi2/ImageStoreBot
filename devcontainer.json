@@ -1,0 +1,22 @@
+{
+  "name": "ImageStoreBot",
+  "settings": {
+    "terminal.integrated.env.linux": {
+      "TELEGRAM_API_KEY": "6619308099:AAHxnw5hNdMx9PeAtcIicS0Lskjn039kTNw",
+      "TELEGRAM_USER_ID": "6745006599"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "ms-python.python"  # Ensures Python extension is available in the container
+      ]
+    }
+  },
+  "build": {
+    "dockerfile": "Dockerfile"  # If you're using a Dockerfile to build the environment
+  },
+  "postCreateCommand": "pip install -r requirements.txt",  # Automatically install dependencies
+  "remoteUser": "vscode"
+}
