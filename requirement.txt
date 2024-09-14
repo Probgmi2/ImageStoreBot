@@ -1,0 +1,3 @@
+python-telegram-bot==20.3  # This is for interacting with the Telegram API
+Pillow==9.2.0              # For image processing (handling photos)
+python-dotenv==1.0.0       # For loading environment variables from a .env file (if needed)
